@@ -1,0 +1,10 @@
+name = "Verba"
+version = "0.1.0"
+defaultTargets = ["verba"]
+
+[[lean_lib]]
+name = "Verba"
+
+[[lean_exe]]
+name = "verba"
+root = "Main"
