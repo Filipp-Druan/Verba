@@ -27,7 +27,6 @@ syntax:65 simple_expr:65 "-" simple_expr:66 : simple_expr
 
 syntax "let" ident "=" simple_expr ";"       : simple_stmt
 syntax "let" "mut" ident "=" simple_expr ";" : simple_stmt
-syntax "let" "mut" ident "=" "undefined" ";" : simple_stmt
 
 syntax "if" simple_expr "{" simple_stmt* "}" "else" "{" simple_stmt* "}" : simple_stmt
 
